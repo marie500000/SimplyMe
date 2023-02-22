@@ -10,3 +10,9 @@ h1{
     font-size: 60px; color : green;
 }
 
+.center{
+    max-width: 50%; max-height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
