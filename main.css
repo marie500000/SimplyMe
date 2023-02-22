@@ -1,9 +1,9 @@
 body{
-    background-color : lightgrey ; 
+    background-color : white ; 
 }
 
 h1{ 
-    font-size: 30px ; color : salmon;
+    font-size: 25px ; color : black;
 }
 
 .big{
@@ -15,4 +15,12 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.p1{
+    font-size: 15px; line-height: 20px;
+}
+
+.div1{
+    font-size: 20px; 
 }
