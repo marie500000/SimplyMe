@@ -24,3 +24,12 @@ h1{
 .div1{
     font-size: 20px; 
 }
+
+.div2{
+    background-color: rgb(255, 212, 255);
+    border: solid rgb(255, 79, 231) 2px;
+}
+
+.big{
+
+}
