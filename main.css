@@ -1,33 +1,29 @@
 body{
-    background-color : rgb(255, 237, 251) ; 
+    background-image: linear-gradient(to right, rgb(255, 210, 247), rgb(186, 210, 255));
 }
 
 h1{ 
     font-size: 30px ; color : black;
 }
 
-.big{
-    font-size: 60px; color : green;
-}
-
 .center{
-    max-width: 35%; max-height: auto; 
+    max-width: 40%; max-height: auto; 
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .texte_classique{
-    font-size: 17px
+    font-size: 20px
 }
 
 .medium{
-    font-size: 21px; 
+    font-size: 23px; 
 }
 
 .encadré_rose{
-    background-color: rgb(255, 212, 255);
-    border: solid rgb(255, 79, 231) 2px;
+    background-color: rgb(234, 199, 255);
+    border: solid rgb(189, 119, 255) 2px;
     border-radius: 2px;
 }
 
@@ -40,14 +36,11 @@ h1{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     transition-duration: 0.4s;
 }
 
 .button:hover {
     text-decoration: none;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.big{
 }

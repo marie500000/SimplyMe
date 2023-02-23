@@ -18,13 +18,13 @@ img{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .center{
-    max-width: 35%; max-height: auto;
+    max-width: 40%; max-height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
