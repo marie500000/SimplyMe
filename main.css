@@ -46,3 +46,27 @@ h1{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     Transform: translate(0,3px)
 }
+
+.menu {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .menu a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 0, 173); 
+    border: solid rgb(104, 0, 173); 
+    display: inline-block; 
+    padding: 12px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor : pointer;
+    text-align : center;
+    width: 10%;
+  }
+  
+  .menu a:hover {
+    background-color: rgb(245, 231, 255);
+  }
+  
