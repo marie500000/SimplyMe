@@ -1,5 +1,5 @@
 body{
-    background-color: linear-gradient(rgb(255, 167, 240), rgb(207, 167, 255), rgb(122, 167, 255),);
+    background-image: linear-gradient(rgb(255, 167, 240), rgb(207, 167, 255), rgb(122, 167, 255),);
 }
 
 img{
@@ -7,4 +7,18 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button {
+    background-color: #ffc6f2;
+    border: solid rgb(255, 98, 226) 2px;
+    border-radius: 8px;
+    color: rgb(255, 98, 226);
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
 }
