@@ -1,0 +1,10 @@
+body{
+    background-color: linear-gradient(rgb(255, 167, 240), rgb(207, 167, 255), rgb(122, 167, 255),);
+}
+
+img{
+    max-width: 35%; max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
