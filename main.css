@@ -15,7 +15,7 @@ h1{
 }
 
 .logo{
-    max-width: 15%; max-height: auto;
+    max-width: 20%; max-height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +35,9 @@ h1{
     background-color: rgb(234, 199, 255);
     border: solid rgb(189, 119, 255) 2px;
     border-radius: 2px;
+    padding: 2%;
+    width: 30%;
+    height: auto;
 }
 
 .button {
@@ -49,6 +52,7 @@ h1{
     font-size: 20px;
     transition-duration: 0.4s;
     cursor : pointer;
+    margin-left: 35%;
 }
 
 .button:hover {
@@ -93,4 +97,16 @@ h1{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: rgb(223, 195, 255);}
+
+  .Photos{
+    max-width: 50%; max-height: auto;
+    display: block;
+    float: right;
+  }
   
+  .container{
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    margin-left: 10%;
+  }
