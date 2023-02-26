@@ -32,7 +32,7 @@ img{
 }
 
 .logo{
-  max-width: 15%; max-height: auto;
+  max-width: 25%; max-height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +48,7 @@ img{
   border: solid rgb(76, 0, 157);
   width: 100%;
   text-align: center;
+  margin-left: 15px;
 }
 
 .dropdown {
