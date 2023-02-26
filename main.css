@@ -24,7 +24,7 @@ h1{
 }
 
 .texte_classique{
-    font-size: 20px
+    font-size: 20px;
 }
 
 .medium{
@@ -37,7 +37,7 @@ h1{
     border-radius: 2px;
     padding: 2%;
     width: 30%;
-    height: auto;
+    height: 300px;
 }
 
 .button {
@@ -45,14 +45,13 @@ h1{
     border: solid rgb(0, 183, 255) 2px;
     border-radius: 8px;
     color: rgb(0, 115, 160);
-    padding: 16px;
+    padding: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 17px;
     transition-duration: 0.4s;
     cursor : pointer;
-    margin-left: 35%;
 }
 
 .button:hover {
