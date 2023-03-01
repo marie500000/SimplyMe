@@ -145,3 +145,9 @@ div.scroll {
     overflow-y: auto;
     text-align:justify;
 }
+
+.PhotosServices{
+        width: 20%; 
+        height: auto;
+        display: block;
+}
