@@ -2,6 +2,13 @@ body{
     background-color: rgb(245, 237, 255);
 }
 
+body, html {
+    margin-left:0.1%;
+    margin-right:0.5%;
+    margin-bottom:0.5%;
+    margin-top:0.5%;
+    }    
+
 h1{ 
     font-size: 30px ; color : black;
 }
@@ -37,9 +44,9 @@ h1{
     background-color: rgb(234, 199, 255);
     border: solid rgb(189, 119, 255) 2px;
     border-radius: 2px;
-    padding: 2%;
-    width: 30%;
-    height: auto;
+    padding: 1%;
+    max-width: 350px;
+    max-height: 500px;
 }
 
 .button {
@@ -112,3 +119,29 @@ h1{
     column-gap: 2%;
     margin-left: 10%;
   }
+
+
+.button2 {
+    background-color: rgb(234, 199, 255);
+    border: solid rgb(189, 119, 255) 2px;
+    border-radius: 8px;
+    color: rgb(167, 94, 236);
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.scroll {
+    margin:4px, 4px;
+    padding:1%;
+    background-color: rgb(234, 199, 255);
+    max-width: 350px;
+    max-height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
