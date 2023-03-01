@@ -1,6 +1,13 @@
 body{
-    background-image: linear-gradient(to right, rgb(255, 210, 247), rgb(186, 210, 255));
+    background-color: rgb(245, 237, 255);
 }
+
+body, html {
+    margin-left:0.1%;
+    margin-right:0.1%;
+    margin-bottom:0.5%;
+    margin-top:0.5%;
+    }    
 
 h1{ 
     font-size: 30px ; color : black;
@@ -95,3 +102,23 @@ h1{
   
   .dropdown:hover .dropbtn {background-color: rgb(223, 195, 255);}
   
+  .Photos {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button2 {
+    background-color: rgb(234, 199, 255);
+    border: solid rgb(189, 119, 255) 2px;
+    border-radius: 8px;
+    color: rgb(167, 94, 236);
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+}
