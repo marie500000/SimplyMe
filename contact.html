@@ -17,28 +17,44 @@
 </div>
     <img src="assets/Logo.png" class="center"/>
     <p class="formulairetitre">Formulaire de contact</p>
-    <div class="container">
-        <form action="action_page.php">
-      
+<div class="container">
+<form action="mailto:coccamarie@gmail.com" method="post" enctype="multipart/form-data">
+<div class="NomPrénom">  
+    <div class="Nom">
           <label for="Nom">Nom</label>
           <input type="text" id="Nom" name="Nom" placeholder="Votre nom...">
-      
+    </div>  
+    <div class="Prénom">
           <label for="Prénom">Prénom</label>
-          <input type="text" id="Prénom" name="Prénom" placeholder="Votre prénom...">
-      
-          <label for="Services">Services</label>
-          <select id="Services" name="Services">
+          <input type="text" id="Prenom" name="Prenom" placeholder="Votre prénom...">
+    </div>
+</div>
+<div class="NuméroEmail">
+    <div class="Numéro">
+          <label for="Numéro">Numéro de téléphone</label>
+          <input type="text" id="Numero" name="Numero" placeholder="Votre numéro de téléphone...">
+    </div>
+    <div class="Email">
+          <label for="Email">Adresse e-mail</label>
+          <input type="text" id="Email" name="Email" placeholder="Votre adresse e-mail...">
+    </div>
+</div>  
+<div class="Service">  
+          <label for="Service">Service</label>
+          <select id="Service" name="Service">
             <option value="Maquillage">Maquillage</option>
             <option value="Grimage">Grimage</option>
             <option value="Ongles">Ongles</option>
             <option value="Auto-maquillage">Auto-maquillage</option>
           </select>
-      
+</div>      
           <label for="Commentaire">Commentaire</label>
           <textarea id="Commentaire" name="Commentaire" placeholder="Écrivez votre question..." style="height:200px"></textarea>
-      
-        <input type="button" value="Envoyer">
+  
+</div>      
+        <input type="submit" value="Envoyer">
         </form>
       </div>
+
 </body>
 </html>
